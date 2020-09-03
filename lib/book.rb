@@ -3,7 +3,7 @@ class Book
     @title = title
   end
   
-  def title
+  def title #no setter method necessary b/c we're 'setting' it when we initialize and won't be resetting it
     @title
   end
 end
